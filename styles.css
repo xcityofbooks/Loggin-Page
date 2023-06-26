@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f9fafe;
+  font-family: Helvetica, sans-serif;
+}
+
+.whole-section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-card {
+  width: 1000px;
+  height: 600px;
+  background-color: #ffff;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 2%;
+}
+
+.half-card {
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  right: 50%;
+  background: linear-gradient(#3c3c6c, #5c64a4);
+  border-top-left-radius: 2%;
+  border-bottom-left-radius: 2%;
+  background-image: url(/5432299.jpg);
+}
+
+.title {
+  width: 500px;
+  height: 600px;
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: bold;
+  font-size: 50px;
+}
+
+.other-half {
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  background-color: rgb(255, 255, 255);
+  display: block;
+}
+
+.whole-text {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.style-inputs {
+  display: block;
+  text-decoration: underline 1px #ffff;
+}
+
+.names-only {
+  padding-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.input-only {
+  width: 450px;
+  height: 35px;
+  border: none;
+  padding: 10px;
+  background-color: #eaebf0;
+}
+
+.icons {
+  position: absolute;
+  right: 40px;
+  top: 176px;
+}
+
+.btns {
+  display: inline-block;
+}
+
+.shared-btn {
+  margin: 20px;
+  width: 180px;
+  height: 40px;
+  background-color: #3c3c6c;
+  color: #ffff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.forgot-pass {
+  color: grey;
+  padding: 8px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.lit-text {
+  font-size: 15px;
+  text-align: left;
+  color: grey;
+}
+
+.other-ways {
+  margin-top: 15px;
+}
+
+.btn-fg {
+  margin-top: 30px;
+}
+
+.otherbtn {
+  width: 450px;
+  height: 35px;
+  margin: 10px;
+  font-weight: bold;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 4px;
+  display: block;
+}
+
+.fa-google {
+  background: conic-gradient(
+      from -45deg,
+      #ea4335 110deg,
+      #4285f4 90deg 180deg,
+      #34a853 180deg 270deg,
+      #fbbc05 270deg
+    )
+    73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.btnicons {
+  border: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.signup-part {
+  display: flex;
+  margin-top: 35px;
+  justify-content: center;
+}
+
+.signup-link {
+  text-decoration: none;
+  color: #3c3c6c;
+  font-weight: bolder;
+  margin-left: 3px;
+}
